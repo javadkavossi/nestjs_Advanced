@@ -49,6 +49,8 @@ importers:
 
   apps/01-nestjs-base-line-rest-api:
     specifiers:
+      '@dev/config': '*'
+      '@dev/database': '*'
       '@nestjs/cli': ^10.0.0
       '@nestjs/common': ^10.0.0
       '@nestjs/core': ^10.0.0
@@ -76,6 +78,8 @@ importers:
       tsconfig-paths: ^4.2.0
       typescript: ^5.1.3
     dependencies:
+      '@dev/config': link:../../packages/app-config
+      '@dev/database': link:../../packages/app-database
       '@nestjs/common': 10.2.7_atc7tu2sld2m3nk4hmwkqn6qde
       '@nestjs/core': 10.2.7_5hwp5tvaqax6kxnclaqixhass4
       '@nestjs/platform-express': 10.2.7_pyni7wzdujkbvmfeegxedz3mmy
