@@ -10,6 +10,7 @@ import {
   UseGuards,
   UseInterceptors,
 } from '@nestjs/common';
+
 import SeriesService from './series.service';
 import ParamsWithId from '../utils/paramsWithId';
 import SeriesDto from './dto/series.dto';
