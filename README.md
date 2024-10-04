@@ -55,11 +55,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-### Description (Short)
+### Description 
 
 "Advanced NestJS project featuring RESTful API development with MongoDB, showcasing scalable API design, robust CRUD operations, and secure JWT-based authentication."
 
 ---
 
-این README شامل تمام اطلاعات لازم برای توضیح پروژه و راهنمای استفاده است. اگر نیاز به تغییر یا افزودن جزئیات خاصی دارید، لطفاً به من بگویید.
+
 
